@@ -21,7 +21,7 @@ namespace HockeyApp
         [Export("startManager")]
         void StartManager();
 
-		[Export("setDisableUpdateManager:disableUpdateManager:")]
+		[Export("setDisableUpdateManager:")]
 		void SetDisableUpdateManager(bool disabled);
     }
 
