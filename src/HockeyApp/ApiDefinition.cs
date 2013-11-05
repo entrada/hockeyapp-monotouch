@@ -20,6 +20,9 @@ namespace HockeyApp
 
         [Export("startManager")]
         void StartManager();
+
+		[Export("setDisableUpdateManager:disableUpdateManager:")]
+		void SetDisableUpdateManager(bool disabled);
     }
 
     [BaseType (typeof (NSObject)), Model]
